@@ -1,4 +1,4 @@
-# RateGain Scraper
+# RateGain Blog Scraper
 ## Our Solution
 1. Tools and Libraries:
 - Utilized Python for scripting.
