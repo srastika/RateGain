@@ -45,6 +45,12 @@ Scrape data from 5 pages:
 Scrape data while preserving null values:
 `python main.py --removeNull False`
 
+## How is our solution is different
+1. Multiple save types: Users can choose the format in which they prefer to save the output , among the available format
+2. Data verification: Using the blog link url , user can easily validate the data, instead of manually searching for it
+3. Null Check: During data collection itself user can choose to discard Null types if any
+4. Easy to set up: Being a python script , it’s easy to setup and run
+
 ## Requirements
 - python3
 - beautifulsoup4==4.12.2
