@@ -1,6 +1,23 @@
 # RateGain Scraper
+## Our Solution
+1. Tools and Libraries:
+- Utilized Python for scripting.
+- Used the Requests library for HTTP requests.
+- Employed Beautiful Soup for parsing HTML content.
+- Chose Pandas for data processing 
+2. Coding Approach:
+- The code is written keeping pagination in mind
+- Used Requests to fetch the HTML content of each page.
+- Used Beautifulsoup to parse the HTML content.
+- Extracted blog titles, dates, likes, image URLs, and  also extra field called blogUrl  is also extracted for the user to directly access the blog and cross check the data using it
+- Implemented error handling for HTTP requests and parsing errors.
+- The extracted data is stored in the user preferred format
+- Implemented error handling mechanisms for various scenarios (HTTP errors, parsing errors, missing data).
+3. Options for Data Storage:
+- Provided multiple options to save the extracted data: CSV, Excel, JSON, HDF, SQL, or pickle formats.
+- User can also choose if they want to keep the null values are not
 
-## Overview
+## File Overview
 This Python script `(main.py)` is designed to scrape data from a web source with customizable options for saving the scraped data. It provides flexibility in defining the save type, file name, number of pages to iterate, and handling null values during the scraping process.
 
 ## Usage
