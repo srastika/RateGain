@@ -11,11 +11,11 @@ To run the script, execute the following command in your terminal:
 ## Command-line Options
 The script supports the following command-line options:
 
-. -h, --help: Show help message and exit.
-. -s SAVETYPE, --saveType SAVETYPE: Change save type for your data. Available save options include csv, json, sql, pickle. Default save type is csv.
-. -f FILENAME, --fileName FILENAME: Change file name. Default is 'scraped_data.csv'.
-. -p PAGES, --pages PAGES: Number of pages to iterate.
-. -rn, --removeNull: Keep null values (if any) as None. Default is True.
+- -h, --help: Show help message and exit.
+- -s SAVETYPE, --saveType SAVETYPE: Change save type for your data. Available save options include csv, json, sql, pickle. Default save type is csv.
+- -f FILENAME, --fileName FILENAME: Change file name. Default is 'scraped_data.csv'.
+- -p PAGES, --pages PAGES: Number of pages to iterate.
+- -rn, --removeNull: Keep null values (if any) as None. Default is True.
 
 ## Examples
 ### Example 1: Changing Save Type and File Name
@@ -29,9 +29,9 @@ Scrape data while preserving null values:
 `python main.py --removeNull False`
 
 ## Requirements
-python3
-beautifulsoup4==4.12.2
-pandas==2.1.3
-requests==2.31.0
-SQLAlchemy==2.0.23
+- python3
+- beautifulsoup4==4.12.2
+- pandas==2.1.3
+- requests==2.31.0
+- SQLAlchemy==2.0.23
 
